@@ -337,9 +337,9 @@ export default async function LandingPage() {
                     </div>
                     <div className="mt-4 grid grid-cols-3 gap-2.5">
                       {[
-                        { l: "Collected", v: "$1,840" },
-                        { l: "Pending", v: "$240" },
-                        { l: "Overdue", v: "$0" },
+                        { l: "Collected", v: "KES1,840" },
+                        { l: "Pending", v: "KES240" },
+                        { l: "Overdue", v: "KES0" },
                       ].map((k) => (
                         <div key={k.l} className="rounded-xl border border-paper/10 bg-paper/[0.04] px-3 py-2.5">
                           <p className="text-[10px] uppercase tracking-wider text-paper/45">{k.l}</p>

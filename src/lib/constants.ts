@@ -1,17 +1,17 @@
 export const AREAS = [
-  "Campus Gate",
-  "Northgate",
-  "Riverside",
-  "Hillview",
-  "Old Town",
-  "Gardenia",
+  "MKU Campus Gate",
+  "Witethie",
+  "Runda",
+  "Kasarani",
+  "Section 2",
+  "Section 9",
 ] as const;
 
 export const UNIVERSITIES = [
-  "Greenfield University",
-  "Northgate Tech",
-  "City College",
-  "St. Anne's College",
+  "Jomo Kenyatta University of Agriculture and Technology",
+  "Mount Kenya University",
+  "Thika TTI College",
+  "Jordan College",
 ] as const;
 
 export const AMENITIES = [
@@ -32,7 +32,7 @@ export const AMENITIES = [
 export const ROOM_TYPES = [
   { value: "single", label: "Single room" },
   { value: "shared", label: "Shared room" },
-  { value: "studio", label: "Studio" },
+  { value: "studio", label: "Bedsitter" },
   { value: "one_bedroom", label: "1 Bedroom" },
   { value: "apartment", label: "Whole apartment" },
 ] as const;

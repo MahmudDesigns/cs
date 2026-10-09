@@ -44,7 +44,7 @@ export async function createCharge(_prev: PaymentState, formData: FormData): Pro
   });
 
   revalidatePath("/landlord/payments");
-  return { success: `Charge of $${amount} for ${period} created.` };
+  return { success: `Charge of KES${amount} for ${period} created.` };
 }
 
 /** Landlord records a received payment against a charge. */

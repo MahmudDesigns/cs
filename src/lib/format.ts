@@ -1,6 +1,6 @@
 export function fmtMoney(n: number | null | undefined): string {
-  if (n == null) return "$0";
-  return "$" + new Intl.NumberFormat("en-US").format(n);
+  if (n == null) return "KES 0";
+  return "KES " + new Intl.NumberFormat("en-KE").format(n);
 }
 
 export function fmtDate(d: string | Date | null | undefined): string {
